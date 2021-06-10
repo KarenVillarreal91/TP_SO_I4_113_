@@ -17,3 +17,21 @@ C- ¿Qué color de fondo tiene su página en el MASTER?
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
 - BETA
 
+
+E- ¿Algún integrante tuvo problemas al hacer el push?
+- Sí, Beta y Gamma.
+
+F- ¿Qué problemas surgieron?
+- Al modificar lo mismo y pushear uno primero los consiguientes tienen error porque sus repositorios locales no tienen la última actualizacion del remoto.
+
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+adoptada?
+- Usando el git status se puede prevenir.
+Despues de hacer un push, el siguiente miembro debe hacer un pull antes de realizar una modificación y de esa forma no se perderan datos ni habra errores. 
+Se puede forzar el push con git push -f, pero se sobrescribe el push anterior. Por lo tanto, no aparecen los cambios realizados y desaparece el commit hecho anteriormente.
+
+H- ¿Qué sucede si cada uno utiliza el push -f?
+- Se forzara el push sobreescribiendo lo que pusheo el anterior.
+
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20 en DESARROLLO?
+- Para que index.html tenga todos los <p>, cada uno debe tener su repositorio local actualizado.
